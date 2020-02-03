@@ -1,0 +1,64 @@
+﻿body {
+    color:black;
+    background-image: url("/Images/Henry.jpg");
+}
+#h1welcome{
+    border:2px groove darkslategray;
+    color:black;
+    text-align:center;
+}
+#welcomeDiv {
+    opacity:0.8;
+    margin: auto;
+    height: auto;
+    width: 600px;
+    background-color: azure;
+}
+#formDiv {
+    opacity:0.8;
+    border: 3px groove darkslategray;
+    height: auto;
+    width: auto;
+    background-color:azure;
+    margin:50px;
+}
+#form1 {
+    margin:auto;
+    text-align: center;
+    font-size:larger;
+}
+#p1{
+    text-align:center;
+    font-size:larger;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration:wavy;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+    #mySidenav a:hover {
+        left: 0;
+    }
+
+#about {
+    top: 20px;
+    background-color: #322f2f;
+}
+
+#projects {
+    top: 80px;
+    background-color: #322f2f;
+}
+
+#contact {
+    top: 140px;
+    background-color: #322f2f;
+}
